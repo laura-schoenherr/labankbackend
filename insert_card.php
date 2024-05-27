@@ -17,9 +17,9 @@ if(isset($_GET["card"])) {
    $card = $_GET["card"]; // get cardID from HTTP GET
 
    $servername = "localhost";
-   $username = "USER";
-   $password = "PASSWORD";
-   $dbname = "DATABASE";
+   $username = "Arduino";
+   $password = "ArduinoGetStarted.com";
+   $dbname = "db_arduino";
 
    // Create connection
    $conn = new mysqli($servername, $username, $password, $dbname);

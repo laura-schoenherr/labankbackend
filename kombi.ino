@@ -3,11 +3,6 @@
 #include <deprecated.h>
 #include <require_cpp11.h>
 
-#include <MFRC522.h>
-#include <MFRC522Extended.h>
-#include <deprecated.h>
-#include <require_cpp11.h>
-
 #include <SPI.h>
 #include <MFRC522.h>
 #include <WiFiS3.h>
